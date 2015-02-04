@@ -8,5 +8,9 @@ namespace INF2DProjects
 {
     class test
     {
+        public string scheldwoorden()
+        {
+            return "kutzooi";
+        }
     }
 }

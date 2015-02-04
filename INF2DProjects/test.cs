@@ -12,5 +12,10 @@ namespace INF2DProjects
         {
             return "kutzooi";
         }
+
+        public string ye()
+        {
+            return "as";
+        }
     }
 }

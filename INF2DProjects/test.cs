@@ -22,5 +22,10 @@ namespace INF2DProjects
         {
             return "je moeder";
         }
+
+        public string getrekt()
+        {
+            return "get rekt m8";
+        }
     }
 }

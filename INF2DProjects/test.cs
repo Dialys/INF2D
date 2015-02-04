@@ -25,7 +25,7 @@ namespace INF2DProjects
 
         public string getrekt()
         {
-            return "get rekt m8";
+            return "more like GIT rekt am i right elelelele";
         }
     }
 }

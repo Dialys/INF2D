@@ -17,5 +17,10 @@ namespace INF2DProjects
         {
             return "as";
         }
+
+        public string myass()
+        {
+            return "je moeder";
+        }
     }
 }

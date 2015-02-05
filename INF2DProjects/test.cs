@@ -27,5 +27,10 @@ namespace INF2DProjects
         {
             return "more like GIT rekt am i right elelelele";
         }
+
+        public string hoihoi()
+        {
+            return "adhaud9a0dasjdioasio";
+        }
     }
 }

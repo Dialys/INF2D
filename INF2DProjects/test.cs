@@ -30,7 +30,7 @@ namespace INF2DProjects
 
         public string hoihoi()
         {
-            return "adhaud9a0dasjdioasio";
+            return "adhaud9a0dasjdaioasio";
         }
     }
 }

@@ -50,6 +50,24 @@ namespace INF2DProjects
                 }
             }
         }
+
+        //InsertionSort Function
+        public static void InsertionSort<A>(this A[] array) where A : IComparable<A>
+        {
+            int upper = array.Length - 1;
+            int inner;
+            for (int outer = 1; outer <= upper; outer++)
+            {
+                var temp = array[outer];
+                inner = outer;
+                while (inner > 0 && array[inner - 1].CompareTo(temp) > 0)
+                {
+                    array[inner] = array[inner - 1];
+                    inner -= 1;
+                }
+                array[inner] = temp;
+            }
+        }
     }
 }
 

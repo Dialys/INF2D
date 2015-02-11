@@ -22,7 +22,7 @@ namespace trackGrades
             int lastStudent = grades.GetUpperBound(0);
             int lastGrade = grades.GetUpperBound(1);
             double average = 0.0;
-            int total;
+            int total;            
             for (int row = 0; row <= lastStudent; row++)
             {
                 total = 0;
@@ -34,55 +34,25 @@ namespace trackGrades
             return average;
         }
 
-        static int getHighest()
+        public static double getAverage2(int[,]array)
         {
-            int[,] grades = new int[,] {{1, 82, 74, 89, 100},
-            {2, 93, 96, 85, 86},
-            {3, 83, 72, 95, 89},
-            {4, 91, 98, 79, 88}};
-            int lastStudent = grades.GetUpperBound(0);
-            int lastGrade = grades.GetUpperBound(1);
-            int highest = 0;
+            //int[,] grades = new int[,] {{1, 82, 74, 89, 100},
+            //{2, 93, 96, 85, 86},
+            //{3, 83, 72, 95, 89},
+            //{4, 91, 98, 79, 88}};
+            int lastStudent = array.GetUpperBound(0);
+            int lastGrade = array.GetUpperBound(1);
+            double average = 0.0;
+            int total;
             for (int row = 0; row <= lastStudent; row++)
             {
-                int high = 0;
+                total = 0;
                 for (int col = 0; col <= lastGrade; col++)
-                {
-                    int temp = grades[row, col];
-                    if (temp > high)
-                    {
-                        highest = grades[row, col];
-                    }
-                }
+                    total += array[row, col];
+                average = total / lastGrade;
                 //Console.WriteLine("Average grade: " + average);
             }
-            return highest;
-        }
-
-        static int getLowest()
-        {
-            int[,] grades = new int[,] {{1, 82, 74, 89, 100},
-            {2, 93, 96, 85, 86},
-            {3, 83, 72, 95, 89},
-            {4, 91, 98, 79, 88}};
-            int lastStudent = grades.GetUpperBound(0);
-            int lastGrade = grades.GetUpperBound(1);
-            int lowest = 0;
-            for (int row = 0; row <= lastStudent; row++)
-            {
-                int high = 0;
-                for (int col = 0; col <= lastGrade; col++)
-                {
-                    int temp = grades[row, col];
-                    if (temp < high)
-                    {
-                        lowest = grades[row, col];
-                    }
-                }
-                //Console.WriteLine("Average grade: " + average);
-            }
-            return lowest;
+            return average;
         }
     }
-
 }

@@ -13,7 +13,7 @@ namespace trackGrades
         {2, 93, 96, 85, 86},
         {3, 83, 72, 95, 89},
         {4, 91, 98, 79, 88}};*/
-        static void getAverage()
+        static double getAverage()
         {
             int[,] grades = new int[,] {{1, 82, 74, 89, 100},
             {2, 93, 96, 85, 86},
@@ -29,8 +29,9 @@ namespace trackGrades
                 for (int col = 0; col <= lastGrade; col++)
                     total += grades[row, col];
                 average = total / lastGrade;
-                Console.WriteLine("Average grade: " + average);
+                //Console.WriteLine("Average grade: " + average);
             }
+            return average;
         }
     }
 

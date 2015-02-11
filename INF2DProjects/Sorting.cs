@@ -8,8 +8,8 @@ namespace INF2DProjects
 {
     public static class Sorting
     {
-       
-        //Bubblesort function
+
+        //BubbleSort function
         public static void BubbleSort<A>(this A[] array) where A : IComparable<A>
         {
             bool isDone = false;
@@ -32,12 +32,24 @@ namespace INF2DProjects
             }
         }
 
+        //SelectionSort Function
         public static void SelectionSort<A>(this A[] array) where A : IComparable<A>
-        { 
-
-
-
-
-
+        {
+            int upper = array.Length - 1;
+            int min;
+            for (int outer = 0; outer <= upper; outer++)
+            {
+                min = outer;
+                for (int inner = outer + 1; inner <= upper; inner++)
+                {
+                    if (array[inner].CompareTo(array[min]) > 0)
+                        min = inner;
+                    var temp = array[outer];
+                    array[outer] = array[min];
+                    array[min] = temp;
+                }
+            }
+        }
     }
 }
+

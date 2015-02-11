@@ -10,7 +10,7 @@ namespace INF2DProjects
     {
         public string scheldwoorden()
         {
-            return "kutzooi";
+            return "kutzoop";
         }
 
         public string ye()

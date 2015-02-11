@@ -31,5 +31,13 @@ namespace INF2DProjects
                 }
             }
         }
+
+        public static void SelectionSort<A>(this A[] array) where A : IComparable<A>
+        { 
+
+
+
+
+
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace INF2DProjects
+namespace Grades
 {
-    class Grades
+    public static class Grades
     {
         public static double getAverage(int[,] array)
         {

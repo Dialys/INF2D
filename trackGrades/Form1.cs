@@ -21,9 +21,13 @@ namespace trackGrades
             {3, 83, 72, 95, 89},
             {4, 91, 98, 79, 88}};
 
-            double poep = Grades.Grades.getAverage(grades);
+            double average = Grades.Grades.getAverage(grades);
+            double highest = Grades.Grades.getHighest(grades);
+            double lowest = Grades.Grades.getLowest(grades);
 
-            hoi.Text = poep.ToString();
+            label1.Text = "Average: " + average.ToString();
+            label2.Text = "Highest: " + highest.ToString();
+            label3.Text = "Lowest: " + lowest.ToString();
         }
 
         private void label1_Click(object sender, EventArgs e)

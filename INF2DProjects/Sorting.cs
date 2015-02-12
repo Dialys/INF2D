@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sorting
+namespace INF2DProjectsDLL
 {
     public static class Sorting
     {

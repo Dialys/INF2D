@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INF2DProjectsDLL", "INF2DProjects\INF2DProjectsDLL.csproj", "{243CE7A4-8381-4F61-AF80-6A895ACD11FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testSorting", "testSorting\testSorting.csproj", "{227C3E42-2457-4A18-9BF2-AB538FA5DCF5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trackGrades", "trackGrades\trackGrades.csproj", "{1317F6D4-F301-45E7-A88C-8685AEEAE07C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testAccurateTimer", "ConsoleApplication2\testAccurateTimer.csproj", "{00B2F3F2-FB6C-480D-BDFC-64CCD3EBD497}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{1317F6D4-F301-45E7-A88C-8685AEEAE07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1317F6D4-F301-45E7-A88C-8685AEEAE07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1317F6D4-F301-45E7-A88C-8685AEEAE07C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B2F3F2-FB6C-480D-BDFC-64CCD3EBD497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B2F3F2-FB6C-480D-BDFC-64CCD3EBD497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B2F3F2-FB6C-480D-BDFC-64CCD3EBD497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B2F3F2-FB6C-480D-BDFC-64CCD3EBD497}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

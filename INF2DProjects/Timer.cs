@@ -5,22 +5,22 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
 
-namespace Timer
+namespace INF2DProjectsDLL
 {
-    class Timer
+    public class Timer
     {
         //Create the stopwatch
         Stopwatch sw = new Stopwatch();
 
         //Method to start the stopwatch
-        public void start()
+        public void Start()
         {
             sw.Reset();
             sw.Start();
         }
         
         //Method to stop the stopwatch
-        public void stop()
+        public void Stop()
         {
             sw.Stop();
         }

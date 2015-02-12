@@ -28,10 +28,8 @@ namespace ConsoleApplication2
                 Console.WriteLine("Ticks: " + stopwatch.ElapsedTicks + " mS: " + stopwatch.ElapsedMilliseconds);
             }
 
-            Process.GetCurrentProcess().ProcessorAffinity =
-            new IntPtr(2); // Uses the second Core or Processor for the Test
-            Process.GetCurrentProcess().PriorityClass =
-            ProcessPriorityClass.High;  	// Prevents "Normal" processes from interrupting Threads
+            Process.GetCurrentProcess().ProcessorAffinity = new IntPtr(2); // Uses the second Core or Processor for the Test
+            Process.GetCurrentProcess().PriorityClass =  ProcessPriorityClass.High;  	// Prevents "Normal" processes from interrupting Threads
             Thread.CurrentThread.Priority = ThreadPriority.Highest;  	// Prevents "Normal" Threads from interrupting this thread
 
             Console.WriteLine("20 Tests with correct preparation");

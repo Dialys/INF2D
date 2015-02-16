@@ -38,6 +38,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bitArray.cs" />
     <Compile Include="Grades.cs" />
     <Compile Include="Sorting.cs" />
     <Compile Include="Timer.cs" />

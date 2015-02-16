@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Collections;
 using Grades;
 
 namespace trackGrades
@@ -25,9 +26,30 @@ namespace trackGrades
             double highest = Grades.Grades.getHighest(grades);
             double lowest = Grades.Grades.getLowest(grades);
 
-            label1.Text = "Average: " + average.ToString();
-            label2.Text = "Highest: " + highest.ToString();
-            label3.Text = "Lowest: " + lowest.ToString();
+            label1.Text = average.ToString();
+            label2.Text = highest.ToString();
+            label3.Text = lowest.ToString();
+
+            ArrayList grade = new ArrayList();
+            int lastStudent = grades.GetUpperBound(0);
+            int lastGrade = grades.GetUpperBound(1);
+            int high = 0;
+            for (int row = 0; row <= lastStudent; row++)
+            {
+                for (int col = 0; col <= lastGrade; col++)
+                    if (grades[row, col] > high)
+                    {
+                        grade.Add(grades[row, col]);
+                    }
+            }
+
+            double gemiddelde = Grades.Grades.getAverage2(grade);
+            double hoogste = Grades.Grades.getHighest2(grade);
+            double laagste = Grades.Grades.getLowest2(grade);
+
+            label4.Text = gemiddelde.ToString();
+            label5.Text = hoogste.ToString();
+            label6.Text = laagste.ToString();
         }
 
         private void label1_Click(object sender, EventArgs e)

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 
 namespace Grades
 {
@@ -52,6 +53,44 @@ namespace Grades
                     {
                         lowest = array[row, col];
                     }
+            }
+            return lowest;
+        }
+
+        public static double getAverage2(ArrayList array)
+        {
+            double total = 0;
+            double average = 0.0;
+            foreach (Object ar in array)
+            {
+                total += (int)ar;
+            }
+            average = total / array.Count;
+            return average;
+        }
+
+        public static double getHighest2(ArrayList array)
+        {
+            double highest = 0;
+            foreach (Object ar in array)
+            {
+                if ((int)ar > highest)
+                {
+                    highest = (int)ar;
+                }                
+            }            
+            return highest;
+        }
+
+        public static double getLowest2(ArrayList array)
+        {
+            double lowest = 100;
+            foreach (Object ar in array)
+            {
+                if ((int)ar < lowest)
+                {
+                    lowest = (int)ar;
+                }
             }
             return lowest;
         }

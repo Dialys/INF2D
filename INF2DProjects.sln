@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testAccurateTimer", "Consol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testBitArray", "testBitArray\testBitArray.csproj", "{67C3A513-2BBF-4111-87BD-1E1D4E7B66BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_Stack_Queue_PriorityQueue", "D:\Stenden\2_Leerjaar\Periode_3\AD\Queue_test\Hoofdstuk_5_test\test_Stack_Queue_PriorityQueue.csproj", "{85F55AF0-BA34-4281-81C8-8E9FBBC9DCCA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_StackQueuePriorityQueue", "D:\Stenden\2_Leerjaar\Periode_3\AD\Queue_test\Hoofdstuk_5_test\test_StackQueuePriorityQueue.csproj", "{85F55AF0-BA34-4281-81C8-8E9FBBC9DCCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -8,5 +8,9 @@ namespace INF2DProjectsDLL
 {
     class Iterator
     {
+        public string conflict()
+        {
+            return "conflict";
+        }
     }
 }

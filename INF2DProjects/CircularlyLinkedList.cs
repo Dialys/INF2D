@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace INF2DProjectsDLL
 {
-    class CircularlyLinkedList
+    public class CircularlyLinkedList
     {
+
     }
 }
+

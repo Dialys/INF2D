@@ -43,6 +43,7 @@
     <Compile Include="CustomQueue.cs" />
     <Compile Include="CustomStack.cs" />
     <Compile Include="Grades.cs" />
+    <Compile Include="LinkedList.cs" />
     <Compile Include="Sorting.cs" />
     <Compile Include="Timer.cs" />
   </ItemGroup>

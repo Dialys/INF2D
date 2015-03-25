@@ -8,6 +8,5 @@ namespace INF2DProjectsDLL
 {
     class Iterator
     {
-
     }
 }

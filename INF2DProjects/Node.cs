@@ -10,16 +10,16 @@ namespace INF2DProjectsDLL
     {
         public Object Element; // Node data
         public Node Link; // Next node
-        //public Node Flink;
-        //public Node Blink;
+        public Node Flink;
+        public Node Blink;
 
         // Default Constructor
         public Node()
         {
             Element = null;
             Link = null;
-            //Flink = null;
-            //Blink = null;
+            Flink = null;
+            Blink = null;
         }
 
         // Parameterized constructor
@@ -27,8 +27,8 @@ namespace INF2DProjectsDLL
         {
             Element = theElement;
             Link = null;
-            //Flink = null;
-            //Blink = null;
+            Flink = null;
+            Blink = null;
         }
     }
 }

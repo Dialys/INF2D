@@ -90,7 +90,7 @@ namespace INF2DProjectsDLL
             Node temp;
             for(int i = 0; i <= n; i++)
                 current = current.Link;
-            if (current.Element = "header")
+            if (current.Element == "header")
                 current = current.Link;
             temp = current;
             return temp;

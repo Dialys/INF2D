@@ -33,7 +33,7 @@ namespace INF2DProjectsDLL
         {
             Node current = new Node();
             current = header;
-            while (!(current.Link.Element = "header"))
+            while ((current.Link.Element != "header"))
             {
                 Console.WriteLine(current.Link.Element);
                 current = current.Link;
@@ -66,7 +66,7 @@ namespace INF2DProjectsDLL
             count--;
         }
 
-        public void Insert(Object n1, n2) 
+        public void Insert(Object n1, Object n2) 
         {
             Node current = new Node();
             Node newnode = new Node(n1);

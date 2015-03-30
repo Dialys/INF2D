@@ -14,7 +14,8 @@ namespace ConsoleApplication2
         {
             Stopwatch stopwatch = new Stopwatch();
 
-            long seed = Environment.TickCount; 	// Prevents the JIT Compiler from optimizing Fkt calls away
+            //Prevents the JIT Comipler from optimizing Fkt calls away
+            long seed = Environment.TickCount; 	
             long result = 0;
             int count = 100000000;
 
@@ -28,21 +29,26 @@ namespace ConsoleApplication2
                 Console.WriteLine("Ticks: " + stopwatch.ElapsedTicks + " mS: " + stopwatch.ElapsedMilliseconds);
             }
 
-            Process.GetCurrentProcess().ProcessorAffinity = new IntPtr(2); // Uses the second Core or Processor for the Test
-            Process.GetCurrentProcess().PriorityClass =  ProcessPriorityClass.High;  	// Prevents "Normal" processes from interrupting Threads
-            Thread.CurrentThread.Priority = ThreadPriority.Highest;  	// Prevents "Normal" Threads from interrupting this thread
+            //Zorgt ervoor dat de Second Core gebruikt wordt
+            Process.GetCurrentProcess().ProcessorAffinity = new IntPtr(2); 
+            //Voorkomt dat "normale processen" de thread niet interrupten
+            Process.GetCurrentProcess().PriorityClass =  ProcessPriorityClass.High;
+            //Voorkomt dat "normale threads" de thread niet interrupten
+            Thread.CurrentThread.Priority = ThreadPriority.Highest;  
 
-            Console.WriteLine("20 Tests with correct preparation");
             Console.WriteLine("Warmup");
             stopwatch.Reset();
             stopwatch.Start();
-            while (stopwatch.ElapsedMilliseconds < 1200)  // A Warmup of 1000-1500 mS 
-            // stabilizes the CPU cache and pipeline.
+            //Warmup zorgt ervoor dat de CPU Cache en de pipeline gestabilliseerd wordt
+            //Warmup tussen de 1000 en 1500 ms
+            while (stopwatch.ElapsedMilliseconds < 1200) 
             {
-                result = TestFunction(seed, count); // Warmup
+                //De warmup
+                result = TestFunction(seed, count);
             }
             stopwatch.Stop();
 
+            //
             for (int repeat = 0; repeat < 20; ++repeat)
             {
                 stopwatch.Reset();
@@ -51,10 +57,11 @@ namespace ConsoleApplication2
                 stopwatch.Stop();
                 Console.WriteLine("Ticks: " + stopwatch.ElapsedTicks + " mS: " + stopwatch.ElapsedMilliseconds);
             }
-            Console.WriteLine(result); // prevents optimizations 
+            Console.WriteLine(result);
             Console.ReadLine();
         }
 
+        //Functie voor de warmup
         public static long TestFunction(long seed, int count)
         {
             long result = seed;

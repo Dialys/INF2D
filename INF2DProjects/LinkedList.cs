@@ -79,7 +79,7 @@ namespace INF2DProjectsDLL
         }
     }
 
-    public class DoublyLinkedListPascal
+    public class DoublyLinkedList
     {
         protected DoublyNode header;
 
@@ -146,14 +146,14 @@ namespace INF2DProjectsDLL
         }
     }
 
-    public class CircularlyLinkedListPascal
+    public class CircularlyLinkedList
     {
         protected CircularlyNode current;
         protected CircularlyNode header;
         private int count;
 
         /// Constructor for CircularlyLinkedList
-        public CircularlyLinkedListPascal()
+        public CircularlyLinkedList()
         {
             count = 0;
             header = new CircularlyNode("header");

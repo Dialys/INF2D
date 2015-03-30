@@ -39,10 +39,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="bitArray.cs" />
+    <Compile Include="CircularlyLinkedList.cs" />
     <Compile Include="CustomPriorityQueue.cs" />
     <Compile Include="CustomQueue.cs" />
     <Compile Include="CustomStack.cs" />
     <Compile Include="Grades.cs" />
+    <Compile Include="Iterator.cs" />
+    <Compile Include="LinkedList.cs" />
+    <Compile Include="Node.cs" />
     <Compile Include="Sorting.cs" />
     <Compile Include="Timer.cs" />
   </ItemGroup>

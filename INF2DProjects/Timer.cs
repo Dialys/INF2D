@@ -50,13 +50,13 @@ namespace INF2DProjectsDLL
             stopwatch.Stop();
         }
 
+        //Method to get the elapsed time
         public string getTime()
         {
             return "Ticks: " + stopwatch.ElapsedTicks + " mS: " + stopwatch.ElapsedMilliseconds;
         }
 
-
-
+        //Function to help warm up 
         public static long TestFunction(long seed, int count)
         {
             long result = seed;

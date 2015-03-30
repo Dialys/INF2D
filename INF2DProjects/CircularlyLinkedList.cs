@@ -33,7 +33,7 @@ namespace INF2DProjectsDLL
         {
             Node current = new Node();
             current = header;
-            while ((current.Link.Element != "header"))
+            while (!(current.Link.Element == "header"))
             {
                 Console.WriteLine(current.Link.Element);
                 current = current.Link;

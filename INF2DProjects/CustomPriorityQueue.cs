@@ -7,14 +7,20 @@ using System.Threading.Tasks;
 
 namespace INF2DProjectsDLL
 {
-	// structure of the priority queue item
+	/// <summary>
+	/// The value type for the CustomPriorityQueue
+	/// It holds a name and a priority
+	/// </summary>
 	public struct pqItem
 	{
-		public int priority;
-		public string name;
+		public string name { get; set; }
+		public int priority { get; set; }
 	}
 
-	// the custom priority queue extends Queue class
+	/// <summary>
+	/// Custom priority queue extends the queue class
+	/// The only allowed element inside the CustomPriorityQueue is the pqItem
+	/// </summary>
 	public class CustomPriorityQueue : Queue
 	{
 		public CustomPriorityQueue()

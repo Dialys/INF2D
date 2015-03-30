@@ -55,6 +55,7 @@ namespace INF2DProjectsDLL
         static int FindMin(int[] arr)
         {
             int min = arr[0];
+            // search start bij 1, positie 0 is de minimum value voordat de loop start.
             for (int i = 0; i < arr.Length - 1; i++)
                 if (arr[i] < min)
                     min = arr[i];

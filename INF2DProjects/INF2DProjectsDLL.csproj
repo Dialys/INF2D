@@ -46,7 +46,6 @@
     <Compile Include="CustomStack.cs" />
     <Compile Include="Iterator.cs" />
     <Compile Include="LinkedList.cs" />
-    <Compile Include="LinkedList2.cs" />
     <Compile Include="LinkedListPascal.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="Search.cs" />

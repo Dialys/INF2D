@@ -50,6 +50,26 @@ namespace INF2DProjectsDLL
             }
             return false;
         }
+
+        //find min
+        static int FindMin(int[] arr)
+        {
+            int min = arr[0];
+            for (int i = 0; i < arr.Length - 1; i++)
+                if (arr[i] < min)
+                    min = arr[i];
+            return min;
+        }
+
+        //find max
+        static int FindMax(int[] arr)
+        {
+            int max = arr[0];
+            for (int i = 0; i < arr.Length - 1; i++)
+                if (arr[i] > max)
+                    max = arr[i];
+            return max;
+        }
     
     }
 }

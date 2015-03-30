@@ -7,19 +7,22 @@ using System.Threading.Tasks;
 
 namespace INF2DProjectsDLL
 {
-	public class CustomQueue
+	/// <summary>
+	///	Generic implementation of the Queue datastructure (FIFO)
+	/// </summary>
+	public class CustomQueue<T>
 	{
 		// private fields
-		private ArrayList cQueue;
+		private List<T> cQueue;
 
 		// constructor
 		public CustomQueue()
 		{
-			cQueue = new ArrayList();
+			cQueue = new List<T>();
 		}
 
 		// add item to the queue
-		public void EnQueue(Object item)
+		public void EnQueue(T item)
 		{
 			cQueue.Add(item);
 		}
@@ -32,7 +35,7 @@ namespace INF2DProjectsDLL
 		}
 
 		// view the first item in the queue
-		public Object Peek()
+		public T Peek()
 		{
 			// index zero for first item
 			return cQueue[0];

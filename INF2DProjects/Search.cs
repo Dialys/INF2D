@@ -8,10 +8,6 @@ namespace INF2DProjectsDLL
 {
     class Search
     {
-        public T FindMax()
-        {
-
-        }
         /// Uses a sequentialsearch on the specified array
         public Boolean SequentialSearch<T>(T[] objs, T obj) where T : IComparable<T>
         {

@@ -9,6 +9,7 @@ namespace INF2DProjectsDLL
     public class LinkedListPascal
     {
         protected LinkedNode header;
+
         /// Constructor for LinkedList
         public LinkedListPascal()
         {
@@ -16,7 +17,7 @@ namespace INF2DProjectsDLL
         }
 
         /// Finds an object in the LinkedList and returns the LinkedNode
-        private LinkedNode Find(Object item)
+        public LinkedNode Find(Object item)
         {
             LinkedNode current = new LinkedNode();
             current = header;

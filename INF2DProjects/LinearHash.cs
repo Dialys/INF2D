@@ -124,7 +124,7 @@ namespace linearHashTable
         //this function returns the size of the hashTable
         public int getHashTableSize()
         {
-            return hashTable.Length();
+            return hashTable.Length;
         }
     }
 }

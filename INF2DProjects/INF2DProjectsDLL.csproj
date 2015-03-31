@@ -44,6 +44,7 @@
     <Compile Include="CustomQueue.cs" />
     <Compile Include="CustomStack.cs" />
     <Compile Include="Grades.cs" />
+    <Compile Include="LinearHash.cs" />
     <Compile Include="LinkedList.cs" />
     <Compile Include="Search.cs" />
     <Compile Include="Sorting.cs" />

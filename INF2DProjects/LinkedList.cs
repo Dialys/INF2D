@@ -133,7 +133,6 @@ namespace INF2DProjectsDLL
         }
 
         /// Prints the DoublyLinkedList in reverse to the Console
-        /// dsfadgsadgas
         public void PrintReverse()
         {
             DoublyNode current = new DoublyNode();

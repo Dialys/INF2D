@@ -34,7 +34,7 @@ namespace testBinaryTree
                 Console.WriteLine("\nPostorder traversal: ");
                 intBinary.PostOrder(intBinary.root);
                 Console.WriteLine("\nDelete node, inorder traversal: ");
-                intBinary.Delete(20);
+                intBinary.Delete(41);
                 intBinary.InOrder(intBinary.root);
 
                 Console.ReadLine();

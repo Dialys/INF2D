@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace INF2DProjectsDLL
 {
-    class Search
+    public class Search
     {
         /// Uses a sequentialsearch on the specified array
         public Boolean SequentialSearch<T>(T[] objs, T obj) where T : IComparable<T>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INF2DProjectsDLL", "INF2DProjects\INF2DProjectsDLL.csproj", "{243CE7A4-8381-4F61-AF80-6A895ACD11FC}"
 EndProject
@@ -14,8 +14,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testBucketHash", "testBucketHash\testBucketHash.csproj", "{A54CD354-A920-44D6-AA0F-2AA62E543846}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testLinearHash", "testLinearHash\testLinearHash.csproj", "{078FB82E-2B72-459F-B8BB-DC6F9EBC49F5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testQuadraticHash", "testQuadraticHash\testQuadraticHash.csproj", "{B1E10AE4-8A55-44F3-92D0-4870167A5D3E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testLinkedList", "testLinkedList\testLinkedList.csproj", "{7B313001-B6F5-4453-9D1E-373A0CEC9AF1}"
 EndProject
@@ -55,10 +53,6 @@ Global
 		{078FB82E-2B72-459F-B8BB-DC6F9EBC49F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{078FB82E-2B72-459F-B8BB-DC6F9EBC49F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{078FB82E-2B72-459F-B8BB-DC6F9EBC49F5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B1E10AE4-8A55-44F3-92D0-4870167A5D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1E10AE4-8A55-44F3-92D0-4870167A5D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1E10AE4-8A55-44F3-92D0-4870167A5D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1E10AE4-8A55-44F3-92D0-4870167A5D3E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7B313001-B6F5-4453-9D1E-373A0CEC9AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7B313001-B6F5-4453-9D1E-373A0CEC9AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B313001-B6F5-4453-9D1E-373A0CEC9AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU

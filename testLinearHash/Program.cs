@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using INF2DProjectsDLL;
 
 namespace testLinearHash
 {
@@ -10,6 +11,8 @@ namespace testLinearHash
     {
         static void Main(string[] args)
         {
+
+
         }
     }
 }

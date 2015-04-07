@@ -46,6 +46,7 @@
     <Compile Include="Grades.cs" />
     <Compile Include="LinearHash.cs" />
     <Compile Include="LinkedList.cs" />
+    <Compile Include="QuadraticHash.cs" />
     <Compile Include="Search.cs" />
     <Compile Include="Sorting.cs" />
     <Compile Include="Timer.cs" />

@@ -61,5 +61,16 @@ namespace INF2DProjectsDLL
                 data[hash_value].Remove(item);
             }
         }
+
+        public static void ShowDistrib(string[] arr)
+        {
+            for (int i = 0; i <= arr.GetUpperBound(0); i++)
+            {
+                if (arr[i] != null)
+                {
+                    Console.WriteLine(i + " " + arr[i]);
+                }
+            }
+        }
     }
 }

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INF2DProjectsDLL", "INF2DPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testSorting", "testSorting\testSorting.csproj", "{227C3E42-2457-4A18-9BF2-AB538FA5DCF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trackGrades", "trackGrades\trackGrades.csproj", "{1317F6D4-F301-45E7-A88C-8685AEEAE07C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testArrayList", "trackGrades\testArrayList.csproj", "{1317F6D4-F301-45E7-A88C-8685AEEAE07C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testBinaryTree", "testBinaryTree\testBinaryTree.csproj", "{95096DA9-94AA-4805-827C-2BF62328F6DA}"
 EndProject

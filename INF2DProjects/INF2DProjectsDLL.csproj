@@ -43,7 +43,7 @@
     <Compile Include="CustomPriorityQueue.cs" />
     <Compile Include="CustomQueue.cs" />
     <Compile Include="CustomStack.cs" />
-    <Compile Include="Grades.cs" />
+    <Compile Include="ArrayList.cs" />
     <Compile Include="LinearHash.cs" />
     <Compile Include="LinkedList.cs" />
     <Compile Include="Search.cs" />

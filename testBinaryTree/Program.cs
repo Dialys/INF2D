@@ -12,10 +12,13 @@ namespace testBinaryTree
         static void Main(string[] args)
         {
             int testID = 0;
+            // 0 for testing with integers and 1 for testing with strings
             if (testID == 0)
             {
+                //Making of a binarytree with integers
                 BinaryTree<int> intBinary = new BinaryTree<int>();
 
+                //Add data to the binarytree
                 intBinary.Insert(18);
                 intBinary.Insert(4);
                 intBinary.Insert(48);
@@ -27,6 +30,7 @@ namespace testBinaryTree
                 intBinary.Insert(2);
                 intBinary.Insert(39);
 
+                //Test the methods 
                 Console.WriteLine("Inorder traversal: ");
                 intBinary.InOrder(intBinary.root);
                 Console.WriteLine("\nPreorder traversal: ");
@@ -42,7 +46,9 @@ namespace testBinaryTree
             if (testID == 1)
             {
                 BinaryTree<String> stringBinary = new BinaryTree<String>();
+                //Making a binarytree with strings
 
+                //Add data to the binarytree
                 stringBinary.Insert("hoi");
                 stringBinary.Insert("doei");
                 stringBinary.Insert("hallo");
@@ -50,6 +56,7 @@ namespace testBinaryTree
                 stringBinary.Insert("morgen");
                 stringBinary.Insert("bonjour");
 
+                //Test the methods on the binarytree
                 Console.WriteLine("Inorder traversal: ");
                 stringBinary.InOrder(stringBinary.root);
                 Console.WriteLine("\nPreorder traversal: ");

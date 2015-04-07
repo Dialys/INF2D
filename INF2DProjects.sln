@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INF2DProjectsDLL", "INF2DProjects\INF2DProjectsDLL.csproj", "{243CE7A4-8381-4F61-AF80-6A895ACD11FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testSorting", "testSorting\testSorting.csproj", "{227C3E42-2457-4A18-9BF2-AB538FA5DCF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_StackQueuePriorityQueue", "D:\Stenden\2_Leerjaar\Periode_3\AD\Queue_test\Hoofdstuk_5_test\test_StackQueuePriorityQueue.csproj", "{85F55AF0-BA34-4281-81C8-8E9FBBC9DCCA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testStackQueuePriorityQueue", "D:\Stenden\2_Leerjaar\Periode_3\AD\Queue_test\Hoofdstuk_5_test\testStackQueuePriorityQueue.csproj", "{85F55AF0-BA34-4281-81C8-8E9FBBC9DCCA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trackGrades", "trackGrades\trackGrades.csproj", "{1317F6D4-F301-45E7-A88C-8685AEEAE07C}"
 EndProject

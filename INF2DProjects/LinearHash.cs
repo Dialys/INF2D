@@ -4,18 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
-using INF2DProjectsDLL;
 
-namespace linearHashTable
+namespace INF2DProjectsDLL
 {
-    public class linearHashTable
+    public class LinearHash
     {
         //initiate fields
         private static KeyValuePair<string, object>[] hashTable; //the hashtable
         private static int lastPos; //latest position
 
         //constructor
-        public linearHashTable()
+        public LinearHash()
         {
             hashTable = new KeyValuePair<string, object>[10007];
             /* 

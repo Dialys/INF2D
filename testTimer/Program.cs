@@ -4,15 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace testBinaryTree
+namespace testTimer
 {
     class Program
     {
         static void Main(string[] args)
         {
-
         }
     }
 }
-
-            

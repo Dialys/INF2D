@@ -4,15 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace testBinaryTree
+namespace testLinearHash
 {
     class Program
     {
         static void Main(string[] args)
         {
-
         }
     }
 }
-
-            

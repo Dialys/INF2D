@@ -7,18 +7,24 @@ using System.Threading.Tasks;
 
 namespace INF2DProjectsDLL
 {
-    class Buckethash
+    public class BucketHash
     {
         private const int SIZE = 101;
         ArrayList[] data;
-
-        public Buckethash()
+        /// <summary>
+        /// Constructor for BucketHash
+        /// </summary>
+        public BucketHash()
         {
             data = new ArrayList[SIZE];
             for (int i = 0; i <= SIZE - 1; i++)
                 data[i] = new ArrayList(4);
         }
-
+        /// <summary>
+        /// Hashes the specified string and returns the key
+        /// </summary>
+        /// <param name="s">String to be hashed</param>
+        /// <returns>Key of the hashed string</returns>
         public int Hash(string s)
         {
             long tot = 0;
@@ -29,16 +35,17 @@ namespace INF2DProjectsDLL
             {
                 tot += 37 * tot + (int)charray[i];
             }
-
             tot = tot % data.GetUpperBound(0);
-
             if (tot < 0)
             {
                 tot += data.GetUpperBound(0);
             }
             return (int)tot;
         }
-
+        /// <summary>
+        /// Inserts a string to the BucketHash
+        /// </summary>
+        /// <param name="item">String to be hashed and added</param>
         public void Insert(string item)
         {
             int hash_value;
@@ -49,8 +56,10 @@ namespace INF2DProjectsDLL
                 data[hash_value].Add(item);
             }
         }
-
-        //Method to remove a string from the buckethash
+        /// <summary>
+        /// Removes a string from the BucketHash
+        /// </summary>
+        /// <param name="item">String to remove</param>
         public void Remove(string item)
         {
             int hash_value;

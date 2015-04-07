@@ -21,6 +21,7 @@ namespace INF2DProjectsDLL
         {
             BinaryNode<T> newNode = new BinaryNode<T>();
             newNode.Data = i;
+            //Checking if there is a root node
             if (root == null)
             {
                 root = newNode;

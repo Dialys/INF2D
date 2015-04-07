@@ -15,7 +15,7 @@ namespace Grades
             int lastStudent = array.GetUpperBound(0); // Store the last student
             int lastGrade = array.GetUpperBound(1); // Store the last grade
             int size = array.Length; // Store the array size
-            double average = 0.0; // Set average to 0
+            double average = 0.0; // Set average to 0z
             double total = 0; // Set total to 0
             for (int row = 0; row <= lastStudent; row++) // Go through all students
             {

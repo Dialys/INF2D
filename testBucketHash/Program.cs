@@ -11,6 +11,17 @@ namespace testBucketHash
     {
         static void Main(string[] args)
         {
+            BucketHash bucketHash = new BucketHash();
+            bucketHash.Insert("test1");
+            bucketHash.Insert("test2");
+            bucketHash.Insert("test3");
+            bucketHash.Insert("test4");
+            Console.WriteLine(bucketHash.ToString());
+            bucketHash.Remove("test2");
+    
+            Console.ReadLine();
+
+
         }
     }
 }

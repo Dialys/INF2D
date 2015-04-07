@@ -50,6 +50,7 @@ namespace INF2DProjectsDLL
             }
         }
 
+        //Method to remove a string from the buckethash
         public void Remove(string item)
         {
             int hash_value;

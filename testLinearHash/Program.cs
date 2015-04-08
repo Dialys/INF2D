@@ -12,7 +12,7 @@ namespace testLinearHash
         static void Main(string[] args)
         {
             //Make a linearhash
-            LinearHash linearHash = new LinearHash();
+            QuadraticHash linearHash = new QuadraticHash();
 
             //Add data to the linearHash
             linearHash.add("test0", "test12");

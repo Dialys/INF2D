@@ -7,14 +7,14 @@ using System.Collections;
 
 namespace INF2DProjectsDLL
 {
-    public class LinearHash
+    public class QuadraticHash
     {
         //initiate fields
         private static KeyValuePair<string, object>[] hashTable; //the hashtable
         private static int lastPos; //latest position
 
         //constructor
-        public LinearHash()
+        public QuadraticHash()
         {
             hashTable = new KeyValuePair<string, object>[10007];
             /* 

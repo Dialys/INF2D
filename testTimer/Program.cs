@@ -54,7 +54,8 @@ namespace testTimer
                 stopwatch.Stop();
                 Console.WriteLine("Ticks: " + stopwatch.ElapsedTicks + " mS: " + stopwatch.ElapsedMilliseconds);
             }
-            Console.WriteLine(result); 
+            Console.WriteLine(result);
+            Console.ReadLine();
         }
 
         public static long TestFunction(long seed, int count)
